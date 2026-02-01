@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* medidas: 768px a 992px, 992px a 1200px */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: linear-gradient(to right, #185a9d, #43cea2);
+        margin: 120px auto;
+    }
+    input {
+        width: 300px;
+        height: 50px;
+        margin: 5px 10px 5px 5px;
+    }
+    main > h1 {
+        padding-top: 30px;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    main > form > div > label > img {
+        display: inline;
+    }
+    input#isenha {
+        background: white;
+    }
+    input#iCPF {
+        background: white;
+    }
+    input#itel {
+        background: white;
+    }
+    input#submit {
+        text-align: center;
+        padding: 0;
+        margin-left: 35px;
+        margin-bottom: px;
+    }
+    main > form {
+        float: left;
+        width: 50%;
+        margin-bottom: 0;
+        margin-left: 10px;
+    }
+    main {
+        width: 95%;
+        height: 370px;
+        margin-top: 180px;
+    }
+    main > div#m {
+        float: right;
+        width: 320px;
+        height: 370px;
+        border-radius: 0px 10px 10px 0px;
+        background-size: 320px;
+    }
+    main > div#p {
+        float: left;
+        width: 300px;
+        text-align: center;
+        margin: 0px 50px 0px 55px;
+    }
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: linear-gradient(to right, #185a9d, #43cea2);
+        margin: 120px auto;
+    }
+    input {
+        width: 350px;
+        height: 50px;
+        margin: 5px 10px 5px 5px;
+    }
+    main > h1 {
+        padding-top: 30px;
+        margin: 0px;
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+    main > form > div > label > img {
+        display: inline;
+    }
+    input#isenha {
+        background: white;
+    }
+    input#iCPF {
+        background: white;
+    }
+    input#itel {
+        background: white;
+    }
+    input#submit {
+        text-align: center;
+        padding: 0;
+        margin-left: 35px;
+        margin-bottom: px;
+    }
+    main > form {
+        float: left;
+        width: 50%;
+        margin-bottom: 0;
+        margin-left: 35px;
+    }
+    main {
+        width: 70%;
+        height: 400px;
+        margin-top: 170px;
+    }
+    main > div#m {
+        float: right;
+        width: 320px;
+        height: 400px;
+        border-radius: 0px 10px 10px 0px;
+        background-size: 320px;
+    }
+    main > div#p {
+        float: left;
+        width: 350px;
+        margin-left: 78px;
+    }
+    main > div > p {
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+        body {
+        background: linear-gradient(to right, #185a9d, #43cea2);
+        margin: 120px auto;
+    }
+    input {
+        width: 350px;
+        height: 50px;
+        margin: 5px 10px 5px 5px;
+    }
+    main > h1 {
+        padding-top: 30px;
+        margin: 0px;
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+    main > form > div > label > img {
+        display: inline;
+    }
+    input#isenha {
+        background: white;
+    }
+    input#iCPF {
+        background: white;
+    }
+    input#itel {
+        background: white;
+    }
+    input#submit {
+        text-align: center;
+        padding: 0;
+        margin-left: 35px;
+        margin-bottom: px;
+    }
+    main > form {
+        float: left;
+        width: 50%;
+        margin-bottom: 0;
+        margin-left: 35px;
+    }
+    main {
+        width: 70%;
+        height: 400px;
+        margin-top: 170px;
+    }
+    main > div#m {
+        float: right;
+        width: 320px;
+        height: 400px;
+        border-radius: 0px 10px 10px 0px;
+        background-size: 320px;
+    }
+    main > div#p {
+        float: left;
+        width: 350px;
+        margin-left: 78px;
+    }
+    main > div > p {
+        font-size: 16px;
+    }
+}
