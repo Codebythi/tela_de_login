@@ -13,7 +13,7 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 html {
-    height: 100vh;
+    height: 100%;
 }
 body {
     background: linear-gradient(to left, #185a9d, #43cea2);
