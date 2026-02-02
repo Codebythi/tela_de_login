@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* medidas: 768px a 992px, 992px a 1200px */
-
+/* para celular nois usamos a medida vdh para tirar a rolagem lateral da tela */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    html {
+        min-height: 100dvh;
+    }
     body {
         background: linear-gradient(to right, #185a9d, #43cea2);
         margin: 120px auto;
@@ -92,7 +95,7 @@
         text-align: center;
         padding: 0;
         margin-left: 35px;
-        margin-bottom: px;
+        margin-bottom: 10px;
     }
     main > form {
         float: left;
@@ -103,7 +106,7 @@
     main {
         width: 70%;
         height: 400px;
-        margin-top: 70px;
+        margin-top: 30px;
     }
     main > div#m {
         float: right;
@@ -130,7 +133,7 @@
     input {
         width: 350px;
         height: 50px;
-        margin: 5px 10px 5px 5px;
+        margin: 5px 0px 5px 5px;
     }
     main > h1 {
         padding-top: 30px;
@@ -177,7 +180,7 @@
     main > div#p {
         float: left;
         width: 350px;
-        margin-left: 78px;
+        margin-left: 170px;
     }
     main > div > p {
         font-size: 16px;
