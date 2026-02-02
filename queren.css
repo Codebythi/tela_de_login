@@ -175,14 +175,14 @@
     main {
         width: 70%;
         height: 420px;
-        margin-top: 180px;
+        margin-top: 30px;
     }
     main > div#m {
         float: right;
         width: 400px;
         height: 420px;
         border-radius: 0px 10px 10px 0px;
-        background-size: 420px;
+        background-size: 380px;
     }
     main > section > div#p {
         width: 400px;
