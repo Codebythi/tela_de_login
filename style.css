@@ -13,7 +13,7 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 html {
-    height: 100dvh;
+    height: 100%zz;
 }
 body {
     background: linear-gradient(to left, #185a9d, #43cea2);
@@ -52,13 +52,13 @@ main form{
     letter-spacing: 3px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
 }
-main > h1 {
+main> section > h1 {
     font: normal 25px 'bebas';
     text-align: center;
     margin: 25px;
     letter-spacing: 1px;
 }
-main > div > p {
+main > section > div > p {
     text-align: center;
     color: rgba(255, 255, 255, 0.863);
     letter-spacing: 1px;
@@ -87,7 +87,7 @@ input#itel {
     background: white url(imagens/phone_enabled_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg
     )200px center / 21px no-repeat scroll;
 }
-main > form > div > label > img {
+main > section> form > div > label > img {
     display: none;
 }
 #submit {

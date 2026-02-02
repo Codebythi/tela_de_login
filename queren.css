@@ -12,14 +12,14 @@
     input {
         width: 300px;
         height: 50px;
-        margin: 5px 10px 5px 5px;
+        margin: 5px 40px 5px 5px;
     }
-    main > h1 {
-        padding-top: 30px;
+    main > section > h1 {
+        padding-top: 20px;
         margin: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
-    main > form > div > label > img {
+    main > section > form > div > label > img {
         display: inline;
     }
     input#isenha {
@@ -35,7 +35,6 @@
         text-align: center;
         padding: 0;
         margin-left: 35px;
-        margin-bottom: px;
     }
     main > form {
         float: left;
@@ -55,15 +54,19 @@
         border-radius: 0px 10px 10px 0px;
         background-size: 320px;
     }
-    main > div#p {
-        float: left;
+    main > section > div#p {
         width: 300px;
         text-align: center;
-        margin: 0px 50px 0px 55px;
+        margin-left: 65px;
     }
-
+    section {
+        text-align: center;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    html {
+        min-height: 100dvh;
+    }
     body {
         background: linear-gradient(to right, #185a9d, #43cea2);
         margin: 120px auto;
@@ -71,15 +74,15 @@
     input {
         width: 350px;
         height: 50px;
-        margin: 5px 10px 5px 5px;
+        margin: 5px 40px 5px 5px;
     }
-    main > h1 {
+    main > section > h1 {
+        font-size: 30px;
         padding-top: 30px;
         margin: 0px;
-        margin-bottom: 15px;
-        font-size: 35px;
+        margin-bottom: 30px;
     }
-    main > form > div > label > img {
+    main > section > form > div > label > img {
         display: inline;
     }
     input#isenha {
@@ -95,53 +98,58 @@
         text-align: center;
         padding: 0;
         margin-left: 35px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     main > form {
-        float: left;
         width: 50%;
         margin-bottom: 0;
-        margin-left: 35px;
+        margin-left: 10px;
     }
     main {
-        width: 70%;
-        height: 400px;
-        margin-top: 30px;
+        width: 95%;
+        height: 420px;
+        margin-top: 180px;
     }
     main > div#m {
         float: right;
-        width: 320px;
-        height: 400px;
+        width: 400px;
+        height: 420px;
         border-radius: 0px 10px 10px 0px;
-        background-size: 320px;
+        background-size: 380px;
     }
-    main > div#p {
-        float: left;
-        width: 350px;
-        margin-left: 78px;
+    main > section > div#p {
+        width: 400px;
+        text-align: center;
+        margin-left: 75px;
     }
-    main > div > p {
+    main > section > div > p {
         font-size: 16px;
     }
-
+    section {
+        text-align: center;
+    }
 }
 @media screen and (min-width: 1200px) {
-        body {
+        html {
+        min-height: 100dvh;
+    }
+    body {
         background: linear-gradient(to right, #185a9d, #43cea2);
-        margin: 0px auto;
+        margin: 120px auto;
     }
     input {
-        width: 350px;
+        width: 400px;
         height: 50px;
-        margin: 5px 0px 5px 5px;
+        margin: 5px 40px 5px 5px;
+        font-size: 15px;
     }
-    main > h1 {
+    main > section > h1 {
+        font-size: 30px;
         padding-top: 30px;
         margin: 0px;
-        margin-bottom: 15px;
-        font-size: 35px;
+        margin-bottom: 30px;
     }
-    main > form > div > label > img {
+    main > section > form > div > label > img {
         display: inline;
     }
     input#isenha {
@@ -157,32 +165,34 @@
         text-align: center;
         padding: 0;
         margin-left: 35px;
-        margin-bottom: px;
+        margin-bottom: 15px;
     }
     main > form {
-        float: left;
         width: 50%;
         margin-bottom: 0;
-        margin-left: 35px;
+        margin-left: 10px;
     }
     main {
-        width: 70%;
-        height: 400px;
-        margin-top: 40px;
+        width: 95%;
+        height: 420px;
+        margin-top: 180px;
     }
     main > div#m {
         float: right;
-        width: 320px;
-        height: 400px;
+        width: 500px;
+        height: 420px;
         border-radius: 0px 10px 10px 0px;
-        background-size: 320px;
+        background-size: 420px;
     }
-    main > div#p {
-        float: left;
-        width: 350px;
-        margin-left: 170px;
+    main > section > div#p {
+        width: 400px;
+        text-align: center;
+        margin-left: 123px;
     }
-    main > div > p {
-        font-size: 16px;
+    main > section > div > p {
+        font-size: 18px;
+    }
+    section {
+        text-align: center;
     }
 }
