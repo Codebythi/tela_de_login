@@ -87,7 +87,7 @@ input#itel {
     background: white url(imagens/phone_enabled_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg
     )200px center / 21px no-repeat scroll;
 }
-main > section> form > div > label > img {
+main > section > form > div > label > img {
     display: none;
 }
 #submit {
@@ -97,6 +97,9 @@ main > section> form > div > label > img {
     padding: 0;
     color: rgba(0, 0, 0, 0.74);
     text-align: center;
+}
+#submit:hover {
+    background-color: rgb(116, 231, 132);
 }
 /* ------------------------------------------------------------------------------------------- */
 
