@@ -128,7 +128,7 @@
 @media screen and (min-width: 1200px) {
         body {
         background: linear-gradient(to right, #185a9d, #43cea2);
-        margin: 120px auto;
+        margin: 0px auto;
     }
     input {
         width: 350px;
@@ -168,7 +168,7 @@
     main {
         width: 70%;
         height: 400px;
-        margin-top: 70px;
+        margin-top: 40px;
     }
     main > div#m {
         float: right;
