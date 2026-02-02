@@ -55,7 +55,7 @@ main form{
 main> section > h1 {
     font: normal 25px 'bebas';
     text-align: center;
-    margin: 25px;
+    margin: 30px 0px 25px 0px;
     letter-spacing: 1px;
 }
 main > section > div > p {
@@ -93,7 +93,7 @@ main > section> form > div > label > img {
 #submit {
     background: rgb(127, 250, 144);
     cursor: pointer;
-    font: 600 1.1em arial, helvetica, sans-serif;
+    font: normal 1em arial, helvetica, sans-serif;
     padding: 0;
     color: rgba(0, 0, 0, 0.74);
     text-align: center;

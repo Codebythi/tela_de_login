@@ -15,7 +15,7 @@
         margin: 5px 40px 5px 5px;
     }
     main > section > h1 {
-        padding-top: 20px;
+        padding-top: 26px;
         margin: 0px;
         margin-bottom: 20px;
     }
@@ -63,7 +63,7 @@
         text-align: center;
     }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1311px) {
     html {
         min-height: 100dvh;
     }
@@ -129,16 +129,16 @@
         text-align: center;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1311px) {
         html {
         min-height: 100dvh;
     }
     body {
         background: linear-gradient(to right, #185a9d, #43cea2);
-        margin: 120px auto;
+        margin: 30px auto;
     }
     input {
-        width: 400px;
+        width: 380px;
         height: 50px;
         margin: 5px 40px 5px 5px;
         font-size: 15px;
@@ -173,13 +173,13 @@
         margin-left: 10px;
     }
     main {
-        width: 95%;
+        width: 70%;
         height: 420px;
         margin-top: 180px;
     }
     main > div#m {
         float: right;
-        width: 500px;
+        width: 400px;
         height: 420px;
         border-radius: 0px 10px 10px 0px;
         background-size: 420px;
@@ -187,7 +187,7 @@
     main > section > div#p {
         width: 400px;
         text-align: center;
-        margin-left: 123px;
+        margin-left: 62px;
     }
     main > section > div > p {
         font-size: 18px;
