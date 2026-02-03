@@ -40,6 +40,7 @@ main {
     color: white;
     box-shadow: 2px 2px 5px black;
     padding-bottom: 20px;
+    transition: width 0.3s, height 0.3s;
 }
 main > div#m {
     background: #F5F8F7 url(imagens/ChatGPT\ Image\ 30\ de\ jan.\ de\ 2026\,\ 09_02_32.png) center / 250px  no-repeat scroll;
@@ -53,10 +54,10 @@ main form{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
 }
 main> section > h1 {
-    font: normal 25px 'bebas';
+    font: 500 25px 'bebas';
     text-align: center;
     margin: 25px 0px 25px 0px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 main > section > div > p {
     text-align: center;
