@@ -62,7 +62,7 @@
         margin-left: 35px;
     }
     body {
-        background: black url(imagens/1000007404.jpg) center / cover no-repeat scroll;
+        background: black url(imagens/1000007404.jpg) center / cover no-repeat fixed;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1311px) {
@@ -126,7 +126,7 @@
         margin-left: 35px;
     }
     body {
-        background: black url(imagens/1000007404.jpg) center / cover no-repeat scroll;
+        background: black url(imagens/1000007404.jpg) center / cover no-repeat fixed;
     }
 }
 @media screen and (min-width: 1311px) {
@@ -193,6 +193,6 @@
         margin-bottom: 15px;
     }
     body {
-        background: black url(imagens/1000007404.jpg) center / cover no-repeat scroll;
+        background: black url(imagens/1000007404.jpg) center / cover no-repeat fixed;
     }
 }
