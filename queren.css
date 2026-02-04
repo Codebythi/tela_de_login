@@ -5,10 +5,6 @@
     html {
         min-height: 100dvh;
     }
-    body {
-        background: linear-gradient(to right, #185a9d, #43cea2);
-        margin: 120px auto;
-    }
     input {
         width: 300px;
         height: 50px;
@@ -25,7 +21,7 @@
     input#isenha {
         background: white;
     }
-    input#iCPF {
+    input#iemail {
         background: white;
     }
     input#itel {
@@ -44,32 +40,31 @@
     }
     main {
         width: 95%;
-        height: 370px;
-        margin-top: 180px;
+        height: 340px;
+        margin-top: 100px;
     }
     main > div#m {
         float: right;
         width: 320px;
-        height: 370px;
+        height: 340px;
         border-radius: 0px 10px 10px 0px;
         background-size: 320px;
     }
-    main > section > div#p {
-        width: 300px;
-        text-align: center;
-        margin-left: 65px;
-    }
     section {
         text-align: center;
+    }
+    button {
+        width: 300px;
+        height: 50px;
+        margin: 5px 40px 5px 5px;
+        text-align: center;
+        padding: 0;
+        margin-left: 35px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1311px) {
     html {
         min-height: 100dvh;
-    }
-    body {
-        background: linear-gradient(to right, #185a9d, #43cea2);
-        margin: 120px auto;
     }
     input {
         width: 350px;
@@ -88,7 +83,7 @@
     input#isenha {
         background: white;
     }
-    input#iCPF {
+    input#iemail {
         background: white;
     }
     input#itel {
@@ -98,7 +93,6 @@
         text-align: center;
         padding: 0;
         margin-left: 35px;
-        margin-bottom: 15px;
     }
     main > form {
         width: 50%;
@@ -107,35 +101,31 @@
     }
     main {
         width: 95%;
-        height: 420px;
+        height: 370px;
         margin-top: 180px;
     }
     main > div#m {
         float: right;
         width: 400px;
-        height: 420px;
+        height: 370px;
         border-radius: 0px 10px 10px 0px;
         background-size: 380px;
-    }
-    main > section > div#p {
-        width: 400px;
-        text-align: center;
-        margin-left: 75px;
-    }
-    main > section > div > p {
-        font-size: 16px;
     }
     section {
         text-align: center;
     }
+    button {
+        width: 350px;
+        height: 50px;
+        margin: 5px 40px 5px 5px;
+        text-align: center;
+        padding: 0;
+        margin-left: 35px;
+    }
 }
 @media screen and (min-width: 1311px) {
-        html {
+    html {
         min-height: 100dvh;
-    }
-    body {
-        background: linear-gradient(to right, #185a9d, #43cea2);
-        margin: 30px auto;
     }
     input {
         width: 380px;
@@ -155,7 +145,7 @@
     input#isenha {
         background: white;
     }
-    input#iCPF {
+    input#iemail {
         background: white;
     }
     input#itel {
@@ -165,7 +155,6 @@
         text-align: center;
         padding: 0;
         margin-left: 35px;
-        margin-bottom: 15px;
     }
     main > form {
         width: 50%;
@@ -174,25 +163,27 @@
     }
     main {
         width: 70%;
-        height: 420px;
+        height: 370px;
         margin-top: 80px;
     }
     main > div#m {
         float: right;
         width: 400px;
-        height: 420px;
+        height: 370px;
         border-radius: 0px 10px 10px 0px;
         background-size: 380px;
     }
-    main > section > div#p {
-        width: 400px;
-        text-align: center;
-        margin-left: 67px;
-    }
-    main > section > div > p {
-        font-size: 18px;
-    }
     section {
         text-align: center;
+    }
+    button {
+        width: 380px;
+        height: 50px;
+        margin: 5px 40px 5px 5px;
+        font-size: 15px;
+        text-align: center;
+        padding: 0;
+        margin-left: 35px;
+        margin-bottom: 15px;
     }
 }

@@ -11,28 +11,21 @@
     <main>
         <div id="m"></div>
         <section>
-            <h1>Redeemify</h1>
+            <h1>Welcome</h1>
             <form action="dados.php">
                 <div>
-                    <label for="isenha"><img src="imagens/icone_password_branco.svg" alt=""></label>
-                    <input type="password" name="senha" id="isenha" minlength="8" maxlenght="15" autocomplete="new-password" required placeholder="Senha do cartão" inputmode="numeric">
+                    <label for="iemail"><img src="imagens/mail_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="email" minlenght="8" maxlenght="15">
                 </div>
                 <div>
-                    <label for="iCPF"><img src="imagens/badge_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></label>
-                    <input type="text" name="CPF" id="iCPF" pattern="\d{11}" maxlength="11" inputmode="numeric" autocomplete="none"
-                    placeholder="CPF" required>
-                </div>
-                <div >
-                    <label for="itel"><img src="imagens/call_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></label>
-                    <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4}-\d{4}$" required placeholder="Telefone da mãe">
+                    <label for="isenha"><img src="imagens/icone_password_branco.svg" alt=""></label>
+                    <input type="password" name="senha" id="isenha" minlength="8" maxlenght="15" autocomplete="new-password" required placeholder="senha">
                 </div>
                 <div>
                     <input type="submit" value="enviar" id="submit">
                 </div>
+                    <button><a class="esqueci" href="#">esquci a senha</a></button>
             </form>
-            <div id="p">
-                <p>preencha o formulario para realizarmos a transferencia do dinheiro</p>
-            </div>
         </section>
     </main>
 </body>

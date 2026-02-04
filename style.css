@@ -16,7 +16,7 @@ html {
     height: 100dvh;
 }
 body {
-    background: linear-gradient(to left, #185a9d, #43cea2);
+    background: black url(imagens/1000007404.jpg) center center / cover no-repeat scroll;
 }
 
 * {
@@ -33,17 +33,18 @@ body {
 }
 /* ---------------------------------------tela_de_login------------------------------------- */
 main {
-    width: 75%;
+    width: 80%;
     margin: 100px auto;
-    background: linear-gradient(135deg, #22d3ee, #3b82f6, #9333ea);
+    background: rgba(255, 255, 255, 0.034);
+    backdrop-filter: blur(5px);
     border-radius: 10px;
     color: white;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 0 0 3px 5px black;
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
 }
 main > div#m {
-    background: #F5F8F7 url(imagens/ChatGPT\ Image\ 30\ de\ jan.\ de\ 2026\,\ 09_02_32.png) center / 250px  no-repeat scroll;
+    background: black url(imagens/1000007015.png) center / 300px  no-repeat scroll;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -58,15 +59,10 @@ main> section > h1 {
     text-align: center;
     margin: 25px 0px 25px 0px;
     letter-spacing: 1.5px;
+    color: transparent;
+    background: linear-gradient(to right, white, #7f00ff, #e100ff, white);
+    background-clip: text;
 }
-main > section > div > p {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.863);
-    letter-spacing: 1px;
-    margin: 10px;
-    font-size: 12px;
-}
-
 input {
     width: 230px;
     height: 40px;
@@ -81,8 +77,8 @@ input {
 input#isenha {
     background: white url(imagens/lock_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg) 200px center / 21px no-repeat scroll;
 }
-input#iCPF {
-    background: white url(imagens/icone_cpf.svg) 200px center / 21px no-repeat scroll;
+input#iemail {
+    background: white url(imagens/mail_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg) 200px center / 21px no-repeat scroll;
 }
 input#itel {
     background: white url(imagens/phone_enabled_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg
@@ -92,15 +88,34 @@ main > section > form > div > label > img {
     display: none;
 }
 #submit {
-    background: rgb(127, 250, 144);
+    background: rgb(152, 43, 255);
     cursor: pointer;
     font: normal 1em arial, helvetica, sans-serif;
     padding: 0;
-    color: rgba(0, 0, 0, 0.74);
+    color: white;
     text-align: center;
 }
 #submit:hover {
-    background-color: rgb(116, 231, 132);
+    background-color: rgb(102, 31, 168);
+}
+button {
+    background: rgb(87, 49, 122);
+    cursor: pointer;
+    padding: 0;
+    color: white;
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px auto ;
+    border: none;
+}
+main > section > form > button > a.esqueci {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font: normal 1.em arial, helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 /* ------------------------------------------------------------------------------------------- */
 
