@@ -61,6 +61,9 @@
         padding: 0;
         margin-left: 35px;
     }
+    body {
+        background: black url(imagens/1000007404.jpg) center / cover no-repeat scroll;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1311px) {
     html {
@@ -121,6 +124,9 @@
         text-align: center;
         padding: 0;
         margin-left: 35px;
+    }
+    body {
+        background: black url(imagens/1000007404.jpg) center / cover no-repeat scroll;
     }
 }
 @media screen and (min-width: 1311px) {
@@ -185,5 +191,8 @@
         padding: 0;
         margin-left: 35px;
         margin-bottom: 15px;
+    }
+    body {
+        background: black url(imagens/1000007404.jpg) center / cover no-repeat scroll;
     }
 }
