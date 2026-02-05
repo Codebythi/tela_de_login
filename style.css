@@ -40,8 +40,8 @@ main {
     border-radius: 10px;
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
-    border: 2px solid rgba(29, 28, 28, 0.808);
-    box-shadow: 0 0 7px rgba(37, 37, 37, 0.808);
+    border: 2px solid rgba(20, 20, 20, 0.808);
+    box-shadow: 0 0 5px rgba(37, 37, 37, 0.808);
 }
 main > div#m {
     background: black url(imagens/1000007415.png) center / 320px  no-repeat scroll;
