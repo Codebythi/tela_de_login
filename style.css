@@ -55,7 +55,7 @@ main form{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
 }
 main> section > h1 {
-    font: 500 25px 'bebas';
+    font: 500 27px 'bebas';
     text-align: center;
     margin: 35px 0px 25px 0px;
     letter-spacing: 1.5px;
@@ -65,9 +65,9 @@ main> section > h1 {
 }
 input {
     width: 230px;
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
-    font: normal 12px arial, helvetica, sans-serif;
+    font: normal 14px arial, helvetica, sans-serif;
     margin: 7px auto ;
     border: none;
     letter-spacing: 1px;
@@ -102,11 +102,10 @@ main > section > form > div > label > img {
 button {
     background: rgb(64, 1, 136);
     cursor: pointer;
-    padding: 0;
     color: white;
     text-align: center;
     width: 230px;
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
     margin: 5px auto ;
     border: none;
