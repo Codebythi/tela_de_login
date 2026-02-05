@@ -40,7 +40,7 @@ main {
     border-radius: 10px;
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
-    border: 2px solid rgba(37, 37, 37, 0.808);
+    border: 2px solid rgba(29, 28, 28, 0.808);
     box-shadow: 0 0 7px rgba(37, 37, 37, 0.808);
 }
 main > div#m {
@@ -121,7 +121,7 @@ input::placeholder {
     color: rgb(201, 195, 195);
 }
 section {
-    border-top: 2px solid rgba(37, 37, 37, 0.534);
+    border-top: 2px solid rgba(37, 37, 37, 0.267);
 }
 /* ------------------------------------------------------------------------------------------- */
 
