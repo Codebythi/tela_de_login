@@ -35,7 +35,7 @@ body {
 main {
     width: 88%;
     margin: 80px auto;
-    background: rgba(0, 0, 0, 0.233);
+    background: rgba(0, 0, 0, 0.37);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     padding-bottom: 20px;
@@ -76,16 +76,16 @@ input {
     color: white;
 }
 input#isenha {
-    background: rgb(43, 42, 42) url(imagens/icone_password_branco.svg) 210px center / 21px no-repeat scroll;
+    background: rgb(27, 26, 26) url(imagens/icone_password_branco.svg) 210px center / 21px no-repeat scroll;
 }
 input#iemail {
-    background: rgb(43, 42, 42) url(imagens/mail_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg) 210px center / 21px no-repeat scroll;
+    background: rgb(27, 26, 26) url(imagens/mail_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg) 210px center / 21px no-repeat scroll;
 }
 main > section > form > div > label > img {
     display: none;
 }
 #submit {
-    background: rgb(107, 43, 255);
+    background: rgb(74, 30, 175);
     cursor: pointer;
     font: normal 1em arial, helvetica, sans-serif;
     padding: 0;
@@ -97,7 +97,7 @@ main > section > form > div > label > img {
     background-color: rgb(90, 31, 168);
 }
 button {
-    background: rgb(59, 1, 136);
+    background: rgb(45, 1, 102);
     cursor: pointer;
     color: white;
     text-align: center;
