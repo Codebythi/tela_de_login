@@ -19,13 +19,13 @@
         display: inline;
     }
     input#isenha {
-        background: white;
+        background: rgb(43, 42, 42);
     }
     input#iemail {
-        background: white;
+        background: rgb(43, 42, 42);
     }
     input#itel {
-        background: white;
+        background: rgb(43, 42, 42);
     }
     input#submit {
         text-align: center;
@@ -83,14 +83,14 @@
     main > section > form > div > label > img {
         display: inline;
     }
-    input#isenha {
-        background: white;
+      input#isenha {
+        background: rgb(43, 42, 42);
     }
-    input#iemail {
-        background: white;
+      input#iemail {
+        background: rgb(43, 42, 42);
     }
-    input#itel {
-        background: white;
+      input#itel {
+        background: rgb(43, 42, 42);
     }
     input#submit {
         text-align: center;
@@ -149,13 +149,13 @@
         display: inline;
     }
     input#isenha {
-        background: white;
+        background: rgb(43, 42, 42);
     }
     input#iemail {
-        background: white;
+        background: rgb(43, 42, 42);
     }
     input#itel {
-        background: white;
+        background: rgb(43, 42, 42);
     }
     input#submit {
         text-align: center;
