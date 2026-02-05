@@ -40,7 +40,7 @@ main {
     border-radius: 10px;
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
-    border: 1px solid rgba(37, 37, 37, 0.315);
+    border: 3px solid rgba(37, 37, 37, 0.808);
 }
 main > div#m {
     background: black url(imagens/1000007415.png) center / 320px  no-repeat scroll;
@@ -71,7 +71,8 @@ input {
     border: none;
     letter-spacing: 1px;
     text-indent: 10px;
-    padding-right: 35px;
+    padding-right: 45px;
+    color: white;
 }
 input#isenha {
     background: rgb(43, 42, 42) url(imagens/icone_password_branco.svg) 210px center / 21px no-repeat scroll;
@@ -119,7 +120,7 @@ input::placeholder {
     color: rgb(201, 195, 195);
 }
 section {
-    border-top: 1px solid rgba(37, 37, 37, 0.315);
+    border-top: 1px solid rgba(37, 37, 37, 0.692);
 }
 /* ------------------------------------------------------------------------------------------- */
 
