@@ -36,11 +36,11 @@ main {
     width: 88%;
     margin: 80px auto;
     background: rgba(0, 0, 0, 0.158);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     border-radius: 10px;
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
-    border: 1.5px solid rgba(167, 167, 167, 0.253);
+    border: 2.5px solid rgba(167, 167, 167, 0.253);
     box-shadow: 0 0 5px rgba(54, 54, 54, 0.808);
 }
 main > div#m {
@@ -60,7 +60,7 @@ main> section > h1 {
     margin: 35px 0px 25px 0px;
     letter-spacing: 1.5px;
     color: transparent;
-    background: linear-gradient(to right, white, #7f00ff, #e100ff, white);
+    background: linear-gradient(to right, white, #5f02bd, #9c01b1, white);
     background-clip: text;
 }
 input {
