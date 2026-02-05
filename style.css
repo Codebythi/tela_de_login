@@ -35,12 +35,12 @@ body {
 main {
     width: 88%;
     margin: 80px auto;
-    background: rgba(0, 0, 0, 0.24);
-    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.158);
+    backdrop-filter: blur(3px);
     border-radius: 10px;
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
-    border: 1.5px solid rgba(87, 87, 87, 0.479);
+    border: 1.5px solid rgba(167, 167, 167, 0.253);
     box-shadow: 0 0 5px rgba(54, 54, 54, 0.808);
 }
 main > div#m {
