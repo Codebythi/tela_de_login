@@ -35,17 +35,16 @@ body {
 main {
     width: 88%;
     margin: 80px auto;
-    background: rgba(255, 255, 255, 0.034);
+    background: rgba(0, 0, 0, 0.151);
     backdrop-filter: blur(5px);
     border-radius: 10px;
-    color: white;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgba(73, 4, 151, 0.87);
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
 }
 main > div#m {
     background: black url(imagens/1000007415.png) center / 320px  no-repeat scroll;
-    height: 200px;
+    height: 215px;
     border-radius: 10px 10px 0px 0px;
 }
 main form{
@@ -75,20 +74,16 @@ input {
     padding-right: 35px;
 }
 input#isenha {
-    background: white url(imagens/lock_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg) 210px center / 21px no-repeat scroll;
+    background: rgb(43, 42, 42) url(imagens/icone_password_branco.svg) 210px center / 21px no-repeat scroll;
 }
 input#iemail {
-    background: white url(imagens/mail_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg) 210px center / 21px no-repeat scroll;
-}
-input#itel {
-    background: white url(imagens/phone_enabled_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg
-    )200px center / 21px no-repeat scroll;
+    background: rgb(43, 42, 42) url(imagens/mail_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg) 210px center / 21px no-repeat scroll;
 }
 main > section > form > div > label > img {
     display: none;
 }
 #submit {
-    background: rgb(152, 43, 255);
+    background: rgb(107, 43, 255);
     cursor: pointer;
     font: normal 1em arial, helvetica, sans-serif;
     padding: 0;
@@ -97,10 +92,10 @@ main > section > form > div > label > img {
     text-indent: 0px;
 }
 #submit:hover {
-    background-color: rgb(102, 31, 168);
+    background-color: rgb(90, 31, 168);
 }
 button {
-    background: rgb(64, 1, 136);
+    background: rgb(59, 1, 136);
     cursor: pointer;
     color: white;
     text-align: center;
@@ -119,6 +114,9 @@ main > section > form > button > a.esqueci {
 }
 main > section > form > button:hover {
     background: rgb(37, 4, 75);
+}
+input::placeholder {
+    color: rgb(201, 195, 195);
 }
 /* ------------------------------------------------------------------------------------------- */
 
