@@ -44,8 +44,9 @@ main {
     border-radius: 10px;
     padding-bottom: 20px;
     transition: width 0.3s, height 0.3s;
-    border: 2.5px solid rgba(167, 167, 167, 0.253);
-    box-shadow: 0 0 5px rgba(54, 54, 54, 0.808);
+    border-left: 2.5px solid rgba(71, 5, 133, 0.61);
+    border-top: 2.5px solid rgba(71, 5, 133, 0.61);
+    box-shadow: 0 0 4px rgba(134, 6, 253, 0.61);
 }
 main > div#m {
     background: black url(imagens/1000007415.png) center / 320px  no-repeat scroll;
