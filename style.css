@@ -16,7 +16,12 @@ html {
     height: 100dvh;
 }
 body {
+    height: 100vh;
     background: black url(imagens/backgroud.jpg) center center / cover no-repeat scroll;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 * {
@@ -34,7 +39,6 @@ body {
 /* ---------------------------------------tela_de_login------------------------------------- */
 main {
     width: 86%;
-    margin: 80px auto;
     background: rgba(0, 0, 0, 0.158);
     backdrop-filter: blur(5px);
     border-radius: 10px;
