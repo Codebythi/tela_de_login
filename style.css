@@ -16,7 +16,7 @@ html {
     height: 100dvh;
 }
 body {
-    height: 100vh;
+    height: 100%;
     background: black url(imagens/backgroud.jpg) center center / cover no-repeat scroll;
     display: flex;
     flex-flow: row nowrap;
