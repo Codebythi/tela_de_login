@@ -47,10 +47,9 @@ main {
     border-left: 2.5px solid rgba(73, 73, 73, 0.61);
     border-top: 2.5px solid rgba(92, 91, 91, 0.445);
     box-shadow: 0 0 4px rgba(104, 103, 103, 0.61);
-    transform: translate(0%, -15%);
 }
 main > div#m {
-    background: black url(imagens/1000007415.png) center / 320px  no-repeat scroll;
+    background: black url(imagens/1000007415.png) center / 290px  no-repeat scroll;
     height: 215px;
     border-radius: 10px 10px 0px 0px;
 }
